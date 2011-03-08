@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.tbiq.gwt.tools</groupId>
+		<artifactId>gwt-tools</artifactId>
+		<version>1.4-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>place-service</artifactId>
+	<packaging>jar</packaging>
+
+	<name>place-service</name>
+	<description>Place service handles managing history within a GWT application</description>
+
+	<build>
+		<!-- Build jar with resources (including java files) -->
+		<resources>
+			<resource>
+				<directory>src/main/java</directory>
+			</resource>
+			<resource>
+				<directory>src/main/resources</directory>
+			</resource>
+		</resources>
+	</build>
+
+</project>
